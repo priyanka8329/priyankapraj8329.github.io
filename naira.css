@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+li{list-style: none;}
+section{
+
+}
+
+/*******************header parts start********************/
+.sec1{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)), url(fabian-grohs-PuxTq4DwUHE-unsplash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    opacity: .9;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color:skyblue;
+    top: 8px;
+    opacity: .9;
+        
+}
+.nav-item a{
+    color:navy;
+    font-weight: bold;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    z-index: 1;
+}
+.navbar-brand  {
+    color:navy;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+#firstclass{
+    color: #fff;
+    text-decoration: none;
+}
+#secondclass:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.header-section{
+    width: 100%;
+    margin-top: 200px;
+    text-transform: uppercase;
+    text-align: center;
+    position: fixed;
+    
+}
+.center-div h3{
+    font-size: 14px;
+    font-family: 'open-sans',sans-serif;
+    font-weight: bold;
+    color:white;
+}
+.center-div h1{
+    font-size: 40px;
+    font-family: 'open-sans',sans-serif;
+    margin: 15px 0px;
+    font-weight: bold;
+    color:black;
+}
+.header-button a{
+    border: 1px solid white;
+    border-radius: 100px;
+    margin:40px 5px;
+    padding: 12px 30px;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+.header-button a:hover{
+    color:black;
+    background-color:white;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 skyblue;   
+}
+
+  /*******************header parts end********************/
+  /*******************offer start********************/
+
+ .offers h2{
+    padding-top: 5px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+.offers{
+    color: black;
+    font-family: 'open-sans',sans-serif;
+    background-color: lightblue;
+    background-attachment: fixed;
+    width: 100%;
+    height:100vh;
+    padding: 10px;
+    opacity: .9;
+
+   
+}
+
+.names h1{
+    font-weight: bold;
+    margin-left: 500px;    
+    color: darkcyan;   
+}
+.names .progress{
+    margin-left:400px;
+  
+    
+}
+ /*******************offer ends********************/
+ 
+ /*******************courses starts********************/
+ .courses h2{
+     font-size: 40px;
+     font-weight: bold;
+     color:black
+     padding: 5px;
+ }
+ .courses{
+    width: 100%;
+    height: 100vh;
+    padding: 30px;   
+    position: relative;
+    background-attachment: fixed;
+}
+.courses:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .4;
+    z-index: -1;
+    background: linear-gradient(160deg, #16c9f6 55%, #fff 0%);
+}
+ .card{
+    transition: 0.4s ease;
+
+}
+.card-header{
+   font-size: 20px;
+   font-weight: bold;
+   background: white!important;
+   padding: 25px 9!important;
+   text-align: center;
+}
+.card-body{
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #606060;
+}
+.card-footer{
+    background: white!important;
+    padding: 30px 70px!important;
+}
+ .card-footer a{
+    border: 1px solid #50d1c0;
+    border-radius: 100px;
+    margin:0px 5px;
+    padding: 12px 30px;
+    outline: none;
+    color:#50d1c0;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.4;
+    text-align: center;
+}
+.card:hover .card-footer a{
+    color:#fff;
+    background-color:#50d1c0;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3) ;   
+
+}
+.card:hover{
+ transform: translateY(-20px);
+ box-shadow: 0 0 20px 0 rgba(0,0,0,0.3) ; 
+}
+.card:hover .card-header{
+ color: #50d1c0;
+
+}
+
+
+ /*******************courses ends********************/
+
