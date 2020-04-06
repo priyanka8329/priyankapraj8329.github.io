@@ -8,43 +8,45 @@
  
         </head>
         <body>
-        
+          <nav class="navbar navbar-expand-lg" style="position: fixed;z-index: 5;">
+            <div class="container text-uppercase p-2">
+              <a class="navbar-brand" href="# ">Coding Technical</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto text-uppercase">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#" id="firstclass"><i class="fa fa-home"></i>Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#service" id="secondclass"><i class="fa fa-user"></i>About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#coursesdiv" id="secondclass"><i class="fa fa-book"></i>Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" id="secondclass"><i class="fa fa-phone"></i>Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+              
                 <section class="sec1" id="topheader">
-                <nav class="navbar navbar-expand-lg">
-                  <div class="container text-uppercase p-2">
-                    <a class="navbar-brand" href="# ">Coding Technical</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav ml-auto text-uppercase">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#" id="firstclass"><i class="fa fa-home"></i>Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#service" id="secondclass"><i class="fa fa-user"></i>About</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#coursesdiv" id="secondclass"><i class="fa fa-book"></i>Courses</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#" id="secondclass"><i class="fa fa-phone"></i>Contact</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  </nav>
+                 
+                
                   <div class="header-section">
                     <div class="center-div">
                       <h3>DESIGN : : CODE: : DEVELOPE</h3>
                       <h1>BEST LEARNING SITE</h1>
                       <div class="header-button">
-                        <a href="#">Sign in</a>
-                        <a href="#">Sign up</a>
+                        <a href="#logindiv">Sign in</a>
+                        <a href="#logindiv">Sign up</a>
                       </div>
                     </div>
                 </div>
-                  </section>
+                </section>
             </div>
              <!--*******************offer section start*****************-->
              <section class="offers" id="service">
@@ -193,7 +195,39 @@
                                                </div>
                                                
 
-                </section>
-                <!--*******************courses end**********************-->
+                </section><br><br><br><br><br><br><br>
+                <!--*******************courses end**********************-->  
+                <!--*******************login start*******************-->
+                <div class="login" id="logindiv">
+                <div class="form-box">
+                  <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn">Log In</button>
+                    <button type="button" class="toggle-btn">Register</button>
+                  </div>
+                  <div class="icons">
+                    <a href="#www.facebook.com"><img src="https://img.icons8.com/cotton/64/000000/facebook-circled--v1.png"/></a>
+                    <img src="https://img.icons8.com/ios/50/000000/twitter-circled.png"/>
+                    <img src="https://img.icons8.com/offices/30/000000/google-logo.png"/>
+                   </div>
+                   <form  id="login" class="input-group">
+                     <input type="text" class="input-field" placeholder="User Id" required>
+                     <input type="password" class="input-field" placeholder="Enter Password" required>
+                     <input type="checkbox" class="check-box" ><span>Remember Password</span>
+                     <button type="submit" class="submit-btn" >Log In</button>
+
+                   </form>
+                   <form id="register" class="input-group">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="email" class="input-field" placeholder="Email Id" required>
+                    <input type="password" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="check-box" ><span>I agree to the terms & condition</span>
+                    <button type="submit" class="submit-btn" >Register</button>
+
+                  </form>
+                 </div>
+              
+                </div>
+                  <!--*******************login end**********************-->
                 </body>
                 </html>
