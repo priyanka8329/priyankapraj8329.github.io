@@ -1,6 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="naira.css">
+        <link rel="stylesheet" href="naira part 1.css">
         <title>CA TASK</title> <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -26,7 +27,7 @@
                     <a class="nav-link" href="#coursesdiv" id="secondclass"><i class="fa fa-book"></i>Courses</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#" id="secondclass"><i class="fa fa-phone"></i>Contact</a>
+                    <a class="nav-link" href="#contactdiv" id="secondclass"><i class="fa fa-phone"></i>Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -202,11 +203,11 @@
                 <div class="form-box">
                   <div class="button-box">
                     <div id="btn"></div>
-                    <button type="button" class="toggle-btn">Log In</button>
-                    <button type="button" class="toggle-btn">Register</button>
+                    <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                    <button type="button" class="toggle-btn" onclick="register()">Register</button>
                   </div>
-                  <div class="icons">
-                    <a href="#www.facebook.com"><img src="https://img.icons8.com/cotton/64/000000/facebook-circled--v1.png"/></a>
+                 <div class="icons">
+                    <img src="https://img.icons8.com/cotton/64/000000/facebook-circled--v1.png"/>
                     <img src="https://img.icons8.com/ios/50/000000/twitter-circled.png"/>
                     <img src="https://img.icons8.com/offices/30/000000/google-logo.png"/>
                    </div>
@@ -215,7 +216,6 @@
                      <input type="password" class="input-field" placeholder="Enter Password" required>
                      <input type="checkbox" class="check-box" ><span>Remember Password</span>
                      <button type="submit" class="submit-btn" >Log In</button>
-
                    </form>
                    <form id="register" class="input-group">
                     <input type="text" class="input-field" placeholder="User Id" required>
@@ -223,11 +223,54 @@
                     <input type="password" class="input-field" placeholder="Enter Password" required>
                     <input type="checkbox" class="check-box" ><span>I agree to the terms & condition</span>
                     <button type="submit" class="submit-btn" >Register</button>
-
                   </form>
                  </div>
               
                 </div>
-                  <!--*******************login end**********************-->
+                <script>
+                  var x=document.getElementById("login");
+                  var y=document.getElementById("register");
+                  var z=document.getElementById("btn");
+                  function register(){
+                    x.style.left="-500px";
+                    y.style.left="50px";
+                    z.style.left="110px";
+                  }
+                  function login(){
+                    x.style.left="30px";
+                    y.style.left="450px";
+                    z.style.left="0";
+                  }
+                </script>
+
+                 
+ <!--***************************************login end*****************************************-->
+ <!--**************************************contact us start****************************************-->
+     <section class="contact" id="contactdiv" >
+       <div class="contain">
+         <h2>Contact Us</h2>
+         <p>Email us and keep upto date with our latest news.</p>
+           <div class="contact-form">
+             <!--*********first grid section*******-->
+       <div>
+         <i class="fa fa-phone"></i><div class="form-info">+91 7003737840</div><br>
+         <i class="fa fa-envelope"></i><div class="form-info">priyanka034@gmail.com</div>
+       </div>
+          <!--**********second grid selection********-->
+          <div>
+            <form>
+              <input type="text" placeholder="First Name" required>
+              <input type="text" placeholder="Last Name" required>
+              <input type="email" placeholder="Email" required>
+              <input type="text" placeholder="Subject of this message" required>
+              <textarea name="message" placeholder="Message" rows="5" required></textarea>
+              <button class="submit"><a href="naira part 1.html">Send  Message</a></button>
+            </form>
+          </div>
+           </div>
+        </div>
+
+     </section>     
+   <!--************************************contact us ends***************************************-->
                 </body>
                 </html>
