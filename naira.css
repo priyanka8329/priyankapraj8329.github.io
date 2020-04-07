@@ -332,7 +332,8 @@ span{
     padding: 30px;   
     position: relative;
     background-attachment: fixed;
-    background-color: #16c9f6;  
+    background-color: #16c9f6; 
+    tex 
 }
 .contact .contain h2{
     text-align: center;
@@ -411,24 +412,25 @@ textarea{
 textarea::placeholder{
     color: black;
 }
-.submit{
-        border: 1px solid white;
-        border-radius: 100px;
-        padding: 8px 25px;
-       
-        background-color: transparent;
-        font-weight: bold;
-        font-size: 15px;
-        position: relative;
-        top: 50px;
-        right: 450px;
+.submit a{
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 8px 25px;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 420px;
+    right: 650px;
+    
 }
-.submit:hover{
-        color:black;
-        background-color:white;
-        text-decoration: none;
-        box-shadow: 0 0 20px 0 #16c9f6;
+.submit a:hover{
+    color:black;
+    background-color:white;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 skyblue;   
 }
+
 
  /*******************contact us********************/
 

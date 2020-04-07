@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+li{list-style: none;}
+
 .contact1{
     width: 100%;
     height: 100vh;
@@ -21,5 +25,22 @@ pre{
     padding: 200px;
     color: white;
     font-family: 'Montserrat', sans-serif;
+}
+.submit1 a{
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 8px 25px;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 350px;
+    right: 660px;
     
+}
+.submit1 a:hover{
+    color:black;
+    background-color:white;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 skyblue;   
 }
