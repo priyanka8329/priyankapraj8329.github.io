@@ -175,7 +175,7 @@
                                                 pointers, condeitional statements, loops, function,
                                                 classes, objects, inheritance & polymorphism.
                                              </div>
-                                             <div class="card-footer">
+                                           <div class="card-footer">
                                                  <a href="https://www.onlinegdb.com/online_c++_compiler" target="blank5">Try it by yourself</a>
                                              </div>
                                             </div>
@@ -200,47 +200,29 @@
                 <!--*******************courses end**********************-->  
                 <!--*******************login start*******************-->
                 <div class="login" id="logindiv">
-                <div class="form-box">
-                  <div class="button-box">
-                    <div id="btn"></div>
-                    <button type="button" class="toggle-btn" onclick="login()">Log In</button>
-                    <button type="button" class="toggle-btn" onclick="register()">Register</button>
-                  </div>
-                 <div class="icons">
-                    <img src="https://img.icons8.com/cotton/64/000000/facebook-circled--v1.png"/>
-                    <img src="https://img.icons8.com/ios/50/000000/twitter-circled.png"/>
-                    <img src="https://img.icons8.com/offices/30/000000/google-logo.png"/>
-                   </div>
-                   <form  id="login" class="input-group">
-                     <input type="text" class="input-field" placeholder="User Id" required>
-                     <input type="password" class="input-field" placeholder="Enter Password" required>
-                     <input type="checkbox" class="check-box" ><span>Remember Password</span>
-                     <button type="submit" class="submit-btn" >Log In</button>
-                   </form>
-                   <form id="register" class="input-group">
-                    <input type="text" class="input-field" placeholder="User Id" required>
-                    <input type="email" class="input-field" placeholder="Email Id" required>
-                    <input type="password" class="input-field" placeholder="Enter Password" required>
-                    <input type="checkbox" class="check-box" ><span>I agree to the terms & condition</span>
-                    <button type="submit" class="submit-btn" >Register</button>
-                  </form>
+                  <div class="form-box">
+                    <div class="button-box">
+                      <div id="btn"></div>
+                        <button type="button" class="toggle-btn">Log In</button>
+                        <button type="button" class="toggle-btn">Register</button>
+                      </div>
+                      <div class="icons">
+                        <img src="https://img.icons8.com/cotton/64/000000/facebook-circled--v1.png"/>
+                        <img src="https://img.icons8.com/ios/50/000000/twitter-circled.png"/>
+                        <img src="https://img.icons8.com/offices/30/000000/google-logo.png"/>
+                       </div>
+                       <form class="input-group">
+                         <input type="text" class="input-field" placeholder="User Id">
+                         <input type="password" class="input-field" placeholder="Enter Password">
+                         <input type="checkbox" class="check-box"><span>Remember Password</span>
+                         <button type="submit" class="submit-btn">Log In</button>
+                       </form>
+                    </div>
+                
+               
                  </div>
-              
-                </div>
-                <script>
-                  var x=document.getElementById("login");
-                  var y=document.getElementById("register");
-                  function register(){
-                    x.style.left="-500px";
-                    
-                    z.style.left="110px";
-                  }
-                  function login(){
-                    x.style.left="0";
-                    y.style.left="450px";
-                    z.style.left="0";
-                  }
-                </script>
+                 
+                   
 
                  
  <!--***************************************login end*****************************************-->
@@ -263,13 +245,44 @@
               <input type="email" placeholder="Email" required>
               <input type="text" placeholder="Subject of this message" required>
               <textarea name="message" placeholder="Message" rows="5" required></textarea>
-              <button class="submit"><a href="naira part 1.html" text-decoration:none >Send  Message</a></button>
+              <button class="submit"><a href="naira part 1.html" >Send  Message</a></button>
             </form>
           </div>
            </div>
+         
         </div>
+        <div class="scrolltop float-right">
+          <i class="fa fa-arrow-up" onclick="topfunction()" id="myBtn"></i>
+        </div>
+
 
      </section>     
    <!--************************************contact us ends***************************************-->
+   <script>
+     $('.count').counterUp({
+       delay:10,
+       time:3000
+     })
+     //Get the button:
+     mybutton= document.getElementById("myBtn");
+
+     //when the user scroll down 20px from the top of the document,show the button:
+     window.onscroll = function() {scrollFunction()};
+
+
+     function scrollFunction() {
+       if (document. body. scrollTop > 20 || document. documentElement. scrollTop > 20) {
+         mybutton.style.display="block";
+       } else{
+        mybutton.style.display="none";
+       }
+     }
+     //when the user clicks on the button,scroll to the top of the document:
+     function topfunction(){
+       document.body.scrollTop=0;
+       document.documentElement.scrollTop=0
+     }
+
+   </script>
                 </body>
                 </html>
