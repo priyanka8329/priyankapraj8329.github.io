@@ -2,6 +2,7 @@
     <head>
         <link rel="stylesheet" href="naira.css">
         <link rel="stylesheet" href="naira part 1.css">
+        <link rel="stylesheet" href="login form.css">
         <title>CA TASK</title> <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -42,8 +43,8 @@
                       <h3>DESIGN : : CODE: : DEVELOPE</h3>
                       <h1>BEST LEARNING SITE</h1>
                       <div class="header-button">
-                        <a href="#logindiv">Sign in</a>
-                        <a href="#logindiv">Sign up</a>
+                        <a href="login form.html">Sign in</a>
+                        <a href="login form.html">Sign up</a>
                       </div>
                     </div>
                 </div>
@@ -108,9 +109,8 @@
                     <div class="container">
                         <div class="row"> 
                                             
-                            <div class="col-lg-4 col-md-3"  >
-                                <img src="https://img.icons8.com/color/48/000000/html.png"/>
-                           
+                         <div class="col-lg-4 col-md-3"  >
+                           <img src="https://img.icons8.com/color/48/000000/html.png"/>
                             <div class="card">
                              <div class="card-header">HTML</div>
                               <div class="card-body">
@@ -196,48 +196,21 @@
                                                </div>
                                                
 
-                </section><br><br><br><br><br><br><br>
+                </section><br><br><br><br><br><br>
                 <!--*******************courses end**********************-->  
-                <!--*******************login start*******************-->
-                <div class="login" id="logindiv">
-                  <div class="form-box">
-                    <div class="button-box">
-                      <div id="btn"></div>
-                        <button type="button" class="toggle-btn">Log In</button>
-                        <button type="button" class="toggle-btn">Register</button>
-                      </div>
-                      <div class="icons">
-                        <img src="https://img.icons8.com/cotton/64/000000/facebook-circled--v1.png"/>
-                        <img src="https://img.icons8.com/ios/50/000000/twitter-circled.png"/>
-                        <img src="https://img.icons8.com/offices/30/000000/google-logo.png"/>
-                       </div>
-                       <form class="input-group">
-                         <input type="text" class="input-field" placeholder="User Id">
-                         <input type="password" class="input-field" placeholder="Enter Password">
-                         <input type="checkbox" class="check-box"><span>Remember Password</span>
-                         <button type="submit" class="submit-btn">Log In</button>
-                       </form>
-                    </div>
-                
-               
-                 </div>
-                 
-                   
-
-                 
- <!--***************************************login end*****************************************-->
+       
  <!--**************************************contact us start****************************************-->
      <section class="contact" id="contactdiv" >
        <div class="contain">
          <h2>Contact Us</h2>
          <p>Email us and keep upto date with our latest news.</p>
            <div class="contact-form">
-             <!--*********first grid section*******-->
+             <!--*********first section*******-->
        <div>
          <i class="fa fa-phone"></i><div class="form-info">+91 7003737840</div><br>
          <i class="fa fa-envelope"></i><div class="form-info">priyanka034@gmail.com</div>
        </div>
-          <!--**********second grid selection********-->
+          <!--**********second  selection********-->
           <div>
             <form>
               <input type="text" placeholder="First Name" required>
@@ -245,44 +218,20 @@
               <input type="email" placeholder="Email" required>
               <input type="text" placeholder="Subject of this message" required>
               <textarea name="message" placeholder="Message" rows="5" required></textarea>
-              <button class="submit"><a href="naira part 1.html" >Send  Message</a></button>
+              <button class="submit"><a href="naira part 1.html" target="blank8" >Send  Message</a></button>
             </form>
           </div>
            </div>
          
-        </div>
-        <div class="scrolltop float-right">
-          <i class="fa fa-arrow-up" onclick="topfunction()" id="myBtn"></i>
-        </div>
-
-
-     </section>     
+            </section>     
    <!--************************************contact us ends***************************************-->
-   <script>
-     $('.count').counterUp({
-       delay:10,
-       time:3000
-     })
-     //Get the button:
-     mybutton= document.getElementById("myBtn");
+            <!--*******************login start*******************-->
+           
+           
+       
+      
+<!--***************************************login end*****************************************-->
+   
+ 
+   
 
-     //when the user scroll down 20px from the top of the document,show the button:
-     window.onscroll = function() {scrollFunction()};
-
-
-     function scrollFunction() {
-       if (document. body. scrollTop > 20 || document. documentElement. scrollTop > 20) {
-         mybutton.style.display="block";
-       } else{
-        mybutton.style.display="none";
-       }
-     }
-     //when the user clicks on the button,scroll to the top of the document:
-     function topfunction(){
-       document.body.scrollTop=0;
-       document.documentElement.scrollTop=0
-     }
-
-   </script>
-                </body>
-                </html>
