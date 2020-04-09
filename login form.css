@@ -7,11 +7,10 @@ a{text-decoration: none;}
 .login{
     width: 100%;
     height: 100vh;
-    padding: 30px;   
-    position: relative;
-    background-attachment: fixed;
+    position: absolute;
+ 
 }
-.login:before{
+.login::before{
     content: "";
     position: absolute;
     top: 0;
@@ -19,7 +18,6 @@ a{text-decoration: none;}
     left: 0;
     right: 0;
     opacity: .4;
-   
     background: linear-gradient(330deg, #50d1c0 55%, thistle 0%);
 }
 .form-box{
